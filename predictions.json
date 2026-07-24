@@ -1,0 +1,286 @@
+{
+  "generated_utc": "2026-07-24T23:46:43.222041+00:00",
+  "upcoming_board": [
+    {
+      "tourney": "Generali Open",
+      "round": "Final",
+      "surface": "clay",
+      "start": "2026-07-25T11:00:00+00:00",
+      "p1": "Quentin Halys",
+      "p2": "Alexander Bublik",
+      "p1_win_prob": 0.4612576400409158,
+      "favorite": "Alexander Bublik",
+      "favorite_prob": 0.5387423599590841,
+      "confidence": 0.5387,
+      "confidence_band": "medium",
+      "error": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Millennium Estoril Open",
+      "round": "Semifinal",
+      "surface": "clay",
+      "start": "2026-07-25T16:30:00+00:00",
+      "p1": "Hugo Gaston",
+      "p2": "Luca Van Assche",
+      "p1_win_prob": 0.42020536318611823,
+      "favorite": "Luca Van Assche",
+      "favorite_prob": 0.5797946368138818,
+      "confidence": 0.55,
+      "confidence_band": "medium",
+      "error": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Millennium Estoril Open",
+      "round": "Semifinal",
+      "surface": "clay",
+      "start": "2026-07-25T18:00:00+00:00",
+      "p1": "Luciano Darderi",
+      "p2": "Alexander Blockx",
+      "p1_win_prob": 0.5318133043746645,
+      "favorite": "Luciano Darderi",
+      "favorite_prob": 0.5318133043746645,
+      "confidence": 0.3852,
+      "confidence_band": "low",
+      "error": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Mubadala Citi DC Open",
+      "round": "Qualifying 1st Round",
+      "surface": "clay",
+      "start": "2026-07-26T04:00:00+00:00",
+      "p1": "Stefan Kozlov",
+      "p2": "Zachary Svajda",
+      "p1_win_prob": 0.4004799015834198,
+      "favorite": "Zachary Svajda",
+      "favorite_prob": 0.5995200984165803,
+      "confidence": 0.4224,
+      "confidence_band": "low",
+      "error": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Mubadala Citi DC Open",
+      "round": "Qualifying 1st Round",
+      "surface": "clay",
+      "start": "2026-07-26T04:00:00+00:00",
+      "p1": "Aziz Dougaz",
+      "p2": "Aleksandar Vukic",
+      "p1_win_prob": 0.4615911453046466,
+      "favorite": "Aleksandar Vukic",
+      "favorite_prob": 0.5384088546953534,
+      "confidence": 0.3587,
+      "confidence_band": "low",
+      "error": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Mubadala Citi DC Open",
+      "round": "Qualifying 1st Round",
+      "surface": "clay",
+      "start": "2026-07-26T04:00:00+00:00",
+      "p1": "Kimmer Coppejans",
+      "p2": "Martin Damm",
+      "p1_win_prob": 0.3894679669522266,
+      "favorite": "Martin Damm",
+      "favorite_prob": 0.6105320330477735,
+      "confidence": 0.4003,
+      "confidence_band": "low",
+      "error": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Mubadala Citi DC Open",
+      "round": "Qualifying 1st Round",
+      "surface": "clay",
+      "start": "2026-07-26T04:00:00+00:00",
+      "p1": "Alex Bolt",
+      "p2": "James McCabe",
+      "p1_win_prob": 0.4975546349736924,
+      "favorite": "James McCabe",
+      "favorite_prob": 0.5024453650263077,
+      "confidence": 0.2933,
+      "confidence_band": "low",
+      "error": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Mubadala Citi DC Open",
+      "round": "Qualifying 1st Round",
+      "surface": "clay",
+      "start": "2026-07-26T04:00:00+00:00",
+      "p1": "Billy Harris",
+      "p2": "Abdullah Shelbayh",
+      "p1_win_prob": 0.5409232853648458,
+      "favorite": "Billy Harris",
+      "favorite_prob": 0.5409232853648458,
+      "confidence": 0.2734,
+      "confidence_band": "low",
+      "error": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Mubadala Citi DC Open",
+      "round": "Qualifying 1st Round",
+      "surface": "clay",
+      "start": "2026-07-26T04:00:00+00:00",
+      "p1": "Elias Ymer",
+      "p2": "Trevor Svajda",
+      "p1_win_prob": 0.3892349344557247,
+      "favorite": "Trevor Svajda",
+      "favorite_prob": 0.6107650655442753,
+      "confidence": 0.235,
+      "confidence_band": "low",
+      "error": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Mubadala Citi DC Open",
+      "round": "Qualifying 1st Round",
+      "surface": "clay",
+      "start": "2026-07-26T04:00:00+00:00",
+      "p1": "Edas Butvilas",
+      "p2": "Mackenzie McDonald",
+      "p1_win_prob": 0.453670511668003,
+      "favorite": "Mackenzie McDonald",
+      "favorite_prob": 0.546329488331997,
+      "confidence": 0.3778,
+      "confidence_band": "low",
+      "error": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Mubadala Citi DC Open",
+      "round": "Qualifying 1st Round",
+      "surface": "clay",
+      "start": "2026-07-26T04:00:00+00:00",
+      "p1": "Andres Martin",
+      "p2": "Christopher O'Connell",
+      "p1_win_prob": 0.3094277920652837,
+      "favorite": "Christopher O'Connell",
+      "favorite_prob": 0.6905722079347163,
+      "confidence": 0.4412,
+      "confidence_band": "low",
+      "error": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    }
+  ],
+  "kalshi_evaluations": [
+    {
+      "match": "Liam Draxl vs Clement Chidekh",
+      "match_start": "2026-07-25T02:00:00Z",
+      "our_p1": 0.5683,
+      "kalshi_p1": 0.35,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Liam Draxl vs Clement Chidekh",
+      "match_start": "2026-07-25T02:00:00Z",
+      "our_p1": 0.5633,
+      "kalshi_p1": 0.35,
+      "confidence_band": "low",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Gauthier Onclin vs Diego Dedura-Palomero",
+      "match_start": "2026-07-25T13:00:00Z",
+      "our_p1": 0.5635,
+      "kalshi_p1": 0.37,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Gauthier Onclin vs Diego Dedura-Palomero",
+      "match_start": "2026-07-25T13:00:00Z",
+      "our_p1": 0.5679,
+      "kalshi_p1": 0.37,
+      "confidence_band": "low",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Alexander Blockx vs Luciano Darderi",
+      "match_start": "2026-07-25T18:00:00+00:00",
+      "our_p1": 0.5311,
+      "kalshi_p1": 0.39,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Alexander Blockx vs Luciano Darderi",
+      "match_start": "2026-07-25T18:00:00+00:00",
+      "our_p1": 0.5014,
+      "kalshi_p1": 0.39,
+      "confidence_band": "low",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Otto Virtanen vs Maks Kasnikowski",
+      "match_start": "2026-07-25T14:10:00Z",
+      "our_p1": 0.6581,
+      "kalshi_p1": 0.6,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Otto Virtanen vs Maks Kasnikowski",
+      "match_start": "2026-07-25T14:10:00Z",
+      "our_p1": 0.6704,
+      "kalshi_p1": 0.6,
+      "confidence_band": "low",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Johannus Monday vs Shintaro Mochizuki",
+      "match_start": "2026-07-25T01:00:00Z",
+      "our_p1": 0.4104,
+      "kalshi_p1": 0.37,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Johannus Monday vs Shintaro Mochizuki",
+      "match_start": "2026-07-25T01:00:00Z",
+      "our_p1": 0.4208,
+      "kalshi_p1": 0.37,
+      "confidence_band": "low",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Alexander Bublik vs Quentin Halys",
+      "match_start": "2026-07-25T11:00:00+00:00",
+      "our_p1": 0.5988,
+      "kalshi_p1": 0.66,
+      "confidence_band": "medium",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Alexander Bublik vs Quentin Halys",
+      "match_start": "2026-07-25T11:00:00+00:00",
+      "our_p1": 0.6335,
+      "kalshi_p1": 0.66,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Luca Van Assche vs Hugo Gaston",
+      "match_start": "2026-07-25T14:00:00Z",
+      "our_p1": 0.6009,
+      "kalshi_p1": 0.6,
+      "confidence_band": "medium",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Luca Van Assche vs Hugo Gaston",
+      "match_start": "2026-07-25T14:00:00Z",
+      "our_p1": 0.5629,
+      "kalshi_p1": 0.6,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    }
+  ],
+  "player_notes": [],
+  "disclaimer": "Not financial advice. Model estimates from public data."
+}

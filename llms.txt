@@ -1,0 +1,8 @@
+# I_PREDICT_SPORT (ipredictsport.com)
+ATP tennis match predictions from a validated ML ensemble, refreshed 3x daily (~6:00/12:00/18:00 ET).
+Machine-readable endpoints (static JSON, no auth, reasonable rates welcome):
+- /predictions.json : current board — matches, model win probabilities, confidence bands, market context, player news notes
+- /track_record.json : full settled history — every logged prediction and proposed bet with accuracy, Brier vs market, PnL, closing-line value
+- /for-robots.html : field semantics and schema notes
+Timestamps prove predictions precede matches. Prediction data only; not betting advice.
+Richer data / API inquiries: /contact.html?topic=api
