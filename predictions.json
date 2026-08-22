@@ -1,0 +1,613 @@
+{
+  "generated_utc": "2026-08-22T22:31:32.645921+00:00",
+  "upcoming_board": [
+    {
+      "tourney": "Cincinnati Open",
+      "round": "Semifinal",
+      "surface": "hard",
+      "start": "2026-08-22T22:50:00+00:00",
+      "p1": "Frances Tiafoe",
+      "p2": "Brandon Nakashima",
+      "p1_win_prob": 0.5951783318321479,
+      "favorite": "Frances Tiafoe",
+      "favorite_prob": 0.5951783318321479,
+      "confidence": 0.58,
+      "confidence_band": "medium",
+      "error": null,
+      "cold_start": null,
+      "market_note": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Winston-Salem Open",
+      "round": "Qualifying Final",
+      "surface": "hard",
+      "start": "2026-08-23T17:00:00+00:00",
+      "p1": "Dhakshineswar Suresh",
+      "p2": "Abdullah Shelbayh",
+      "p1_win_prob": 0.386176595313892,
+      "favorite": "Abdullah Shelbayh",
+      "favorite_prob": 0.613823404686108,
+      "confidence": 0.3844,
+      "confidence_band": "low",
+      "error": null,
+      "cold_start": null,
+      "market_note": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Winston-Salem Open",
+      "round": "Qualifying Final",
+      "surface": "hard",
+      "start": "2026-08-23T17:00:00+00:00",
+      "p1": "Sebastian Gorzny",
+      "p2": "Felix Balshaw",
+      "p1_win_prob": null,
+      "favorite": null,
+      "favorite_prob": null,
+      "confidence": null,
+      "confidence_band": null,
+      "error": null,
+      "cold_start": true,
+      "market_note": "cold start",
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Winston-Salem Open",
+      "round": "Qualifying Final",
+      "surface": "hard",
+      "start": "2026-08-23T17:00:00+00:00",
+      "p1": "Mees Rottgering",
+      "p2": "Hugo Grenier",
+      "p1_win_prob": 0.35387192566086473,
+      "favorite": "Hugo Grenier",
+      "favorite_prob": 0.6461280743391353,
+      "confidence": 0.4249,
+      "confidence_band": "low",
+      "error": null,
+      "cold_start": null,
+      "market_note": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Winston-Salem Open",
+      "round": "Qualifying Final",
+      "surface": "hard",
+      "start": "2026-08-23T17:00:00+00:00",
+      "p1": "Quinn Vandecasteele",
+      "p2": "Pierre-Hugues Herbert",
+      "p1_win_prob": 0.3185061301454797,
+      "favorite": "Pierre-Hugues Herbert",
+      "favorite_prob": 0.6814938698545203,
+      "confidence": 0.5327,
+      "confidence_band": "medium",
+      "error": null,
+      "cold_start": null,
+      "market_note": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Winston-Salem Open",
+      "round": "Round 1",
+      "surface": "hard",
+      "start": "2026-08-23T19:00:00+00:00",
+      "p1": "Miomir Kecmanovic",
+      "p2": "Sho Shimabukuro",
+      "p1_win_prob": 0.6823606045322475,
+      "favorite": "Miomir Kecmanovic",
+      "favorite_prob": 0.6823606045322475,
+      "confidence": 0.5759,
+      "confidence_band": "medium",
+      "error": null,
+      "cold_start": null,
+      "market_note": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Winston-Salem Open",
+      "round": "Round 1",
+      "surface": "hard",
+      "start": "2026-08-23T19:00:00+00:00",
+      "p1": "Cruz Hewitt",
+      "p2": "Dino Prizmic",
+      "p1_win_prob": 0.24885538990807182,
+      "favorite": "Dino Prizmic",
+      "favorite_prob": 0.7511446100919281,
+      "confidence": 0.5153,
+      "confidence_band": "medium",
+      "error": null,
+      "cold_start": null,
+      "market_note": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Winston-Salem Open",
+      "round": "Round 1",
+      "surface": "hard",
+      "start": "2026-08-23T19:00:00+00:00",
+      "p1": "Jenson Brooksby",
+      "p2": "Giovanni Mpetshi Perricard",
+      "p1_win_prob": 0.3925432250399179,
+      "favorite": "Giovanni Mpetshi Perricard",
+      "favorite_prob": 0.6074567749600821,
+      "confidence": 0.55,
+      "confidence_band": "medium",
+      "error": null,
+      "cold_start": null,
+      "market_note": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Winston-Salem Open",
+      "round": "Round 1",
+      "surface": "hard",
+      "start": "2026-08-23T20:30:00+00:00",
+      "p1": "Mattia Bellucci",
+      "p2": "Martin Landaluce",
+      "p1_win_prob": 0.49261545375844673,
+      "favorite": "Martin Landaluce",
+      "favorite_prob": 0.5073845462415533,
+      "confidence": 0.367,
+      "confidence_band": "low",
+      "error": null,
+      "cold_start": null,
+      "market_note": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Winston-Salem Open",
+      "round": "Round 1",
+      "surface": "hard",
+      "start": "2026-08-23T20:30:00+00:00",
+      "p1": "Wu Yibing",
+      "p2": "Francisco Comesana",
+      "p1_win_prob": null,
+      "favorite": null,
+      "favorite_prob": null,
+      "confidence": null,
+      "confidence_band": null,
+      "error": null,
+      "cold_start": true,
+      "market_note": "cold start",
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Winston-Salem Open",
+      "round": "Round 1",
+      "surface": "hard",
+      "start": "2026-08-23T22:30:00+00:00",
+      "p1": "Adolfo Daniel Vallejo",
+      "p2": "Pablo Carreno Busta",
+      "p1_win_prob": 0.5583536243293648,
+      "favorite": "Adolfo Daniel Vallejo",
+      "favorite_prob": 0.5583536243293648,
+      "confidence": 0.5438,
+      "confidence_band": "medium",
+      "error": null,
+      "cold_start": null,
+      "market_note": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "Winston-Salem Open",
+      "round": "Round 1",
+      "surface": "hard",
+      "start": "2026-08-24T00:00:00+00:00",
+      "p1": "Darwin Blanch",
+      "p2": "Rinky Hijikata",
+      "p1_win_prob": 0.25195145056019197,
+      "favorite": "Rinky Hijikata",
+      "favorite_prob": 0.748048549439808,
+      "confidence": 0.5357,
+      "confidence_band": "medium",
+      "error": null,
+      "cold_start": null,
+      "market_note": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    }
+  ],
+  "kalshi_evaluations": [
+    {
+      "match": "Francisco Comesana vs Yibing Wu",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.6135,
+      "kalshi_p1": 0.34,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Francisco Comesana vs Yibing Wu",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.6135,
+      "kalshi_p1": 0.34,
+      "confidence_band": "low",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Giovanni Mpetshi Perricard vs Jenson Brooksby",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.606,
+      "kalshi_p1": 0.38,
+      "confidence_band": "medium",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Giovanni Mpetshi Perricard vs Jenson Brooksby",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.606,
+      "kalshi_p1": 0.38,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Denis Yevseyev vs Mirza Basic",
+      "match_start": "2026-08-23T12:40:00Z",
+      "our_p1": 0.4752,
+      "kalshi_p1": 0.6,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Denis Yevseyev vs Mirza Basic",
+      "match_start": "2026-08-23T12:40:00Z",
+      "our_p1": 0.4752,
+      "kalshi_p1": 0.6,
+      "confidence_band": "low",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Sebastian Baez vs Lloyd Harris",
+      "match_start": "2026-08-23T02:10:00Z",
+      "our_p1": 0.4651,
+      "kalshi_p1": 0.59,
+      "confidence_band": "medium",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Sebastian Baez vs Lloyd Harris",
+      "match_start": "2026-08-23T02:10:00Z",
+      "our_p1": 0.4948,
+      "kalshi_p1": 0.59,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Adam Walton vs Jesper de Jong",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.4975,
+      "kalshi_p1": 0.62,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Adam Walton vs Jesper de Jong",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.5205,
+      "kalshi_p1": 0.62,
+      "confidence_band": "low",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Dino Prizmic vs Cruz Hewitt",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.7511,
+      "kalshi_p1": 0.85,
+      "confidence_band": "medium",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Dino Prizmic vs Cruz Hewitt",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.7511,
+      "kalshi_p1": 0.85,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Marcos Giron vs Valentin Royer",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.5456,
+      "kalshi_p1": 0.51,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Marcos Giron vs Valentin Royer",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.6198,
+      "kalshi_p1": 0.51,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Frances Tiafoe vs Brandon Nakashima",
+      "match_start": "2026-08-23T01:00:00Z",
+      "our_p1": 0.5956,
+      "kalshi_p1": 0.48,
+      "confidence_band": "medium",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Frances Tiafoe vs Brandon Nakashima",
+      "match_start": "2026-08-23T01:00:00Z",
+      "our_p1": 0.5956,
+      "kalshi_p1": 0.48,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Pablo Carreno Busta vs Adolfo Daniel Vallejo",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.44,
+      "kalshi_p1": 0.53,
+      "confidence_band": "medium",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Pablo Carreno Busta vs Adolfo Daniel Vallejo",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.44,
+      "kalshi_p1": 0.53,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Martin Landaluce vs Mattia Bellucci",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.5084,
+      "kalshi_p1": 0.58,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Martin Landaluce vs Mattia Bellucci",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.5084,
+      "kalshi_p1": 0.58,
+      "confidence_band": "low",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Benjamin Bonzi vs Kamil Majchrzak",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.5474,
+      "kalshi_p1": 0.42,
+      "confidence_band": "medium",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Benjamin Bonzi vs Kamil Majchrzak",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.5474,
+      "kalshi_p1": 0.42,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Rinky Hijikata vs Darwin Blanch",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.747,
+      "kalshi_p1": 0.64,
+      "confidence_band": "medium",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Rinky Hijikata vs Darwin Blanch",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.747,
+      "kalshi_p1": 0.64,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Marton Fucsovics vs Roman Safiullin",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.4319,
+      "kalshi_p1": 0.35,
+      "confidence_band": "medium",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Marton Fucsovics vs Roman Safiullin",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.4319,
+      "kalshi_p1": 0.35,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Vit Kopriva vs Lorenzo Sonego",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.4168,
+      "kalshi_p1": 0.36,
+      "confidence_band": "medium",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Vit Kopriva vs Lorenzo Sonego",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.4168,
+      "kalshi_p1": 0.36,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Miomir Kecmanovic vs Sho Shimabukuro",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.6785,
+      "kalshi_p1": 0.67,
+      "confidence_band": "medium",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Miomir Kecmanovic vs Sho Shimabukuro",
+      "match_start": "2026-08-23T18:00:00Z",
+      "our_p1": 0.6785,
+      "kalshi_p1": 0.67,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Moez Echargui vs Hubert Hurkacz",
+      "match_start": "2026-08-23T01:00:00Z",
+      "our_p1": 0.1742,
+      "kalshi_p1": 0.13,
+      "confidence_band": "high",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Moez Echargui vs Hubert Hurkacz",
+      "match_start": "2026-08-23T01:00:00Z",
+      "our_p1": 0.1742,
+      "kalshi_p1": 0.13,
+      "confidence_band": "high",
+      "product": "hold_settle"
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-23T20:00:00Z",
+      "our_p1": 0.33701061930553006,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-23T19:00:00Z",
+      "our_p1": 0.5701746302905056,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-23T19:00:00Z",
+      "our_p1": 0.565796864560952,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-23T17:00:00Z",
+      "our_p1": 0.4380711377015932,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-23T15:00:00Z",
+      "our_p1": 0.3605685961126097,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-23T15:00:00Z",
+      "our_p1": 0.43421898685616256,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-23T09:00:00Z",
+      "our_p1": 0.23876557662190406,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-23T19:00:00Z",
+      "our_p1": 0.7735522624364544,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-23T19:00:00Z",
+      "our_p1": 0.5033803063420442,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-23T19:00:00Z",
+      "our_p1": 0.43751129806062816,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-23T19:00:00Z",
+      "our_p1": 0.4827198279991011,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-23T19:00:00Z",
+      "our_p1": 0.6279919325851723,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-23T19:00:00Z",
+      "our_p1": 0.6295598920918383,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-23T19:00:00Z",
+      "our_p1": 0.4083361770086086,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-23T19:00:00Z",
+      "our_p1": 0.37696892652422914,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-23T02:30:00Z",
+      "our_p1": 0.14171934758955543,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-22T22:00:00Z",
+      "our_p1": 0.036550508506878326,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-08-22T22:00:00Z",
+      "our_p1": 0.7069569450585743,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    }
+  ],
+  "player_notes": [],
+  "disclaimer": "Not financial advice. Model estimates from public data."
+}
