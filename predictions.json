@@ -1,0 +1,800 @@
+{
+  "generated_utc": "2026-09-05T22:41:29.010086+00:00",
+  "upcoming_board": [
+    {
+      "tourney": "US Open",
+      "round": "Round 3",
+      "surface": "hard",
+      "start": "2026-09-06T00:30:00+00:00",
+      "p1": "Alejandro Tabilo",
+      "p2": "Alexander Zverev",
+      "p1_win_prob": 0.14594727063946294,
+      "favorite": "Alexander Zverev",
+      "favorite_prob": 0.8540527293605371,
+      "confidence": 0.7774,
+      "confidence_band": "high",
+      "error": null,
+      "cold_start": null,
+      "market_note": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "US Open",
+      "round": "Round 3",
+      "surface": "hard",
+      "start": "2026-09-06T00:30:00+00:00",
+      "p1": "Learner Tien",
+      "p2": "Jakub Mensik",
+      "p1_win_prob": 0.5188225076829344,
+      "favorite": "Learner Tien",
+      "favorite_prob": 0.5188225076829344,
+      "confidence": 0.55,
+      "confidence_band": "medium",
+      "error": null,
+      "cold_start": null,
+      "market_note": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "US Open",
+      "round": "Round 4",
+      "surface": "hard",
+      "start": "2026-09-06T18:00:00+00:00",
+      "p1": "Carlos Alcaraz",
+      "p2": "Tommy Paul",
+      "p1_win_prob": 0.8728919619944323,
+      "favorite": "Carlos Alcaraz",
+      "favorite_prob": 0.8728919619944323,
+      "confidence": 0.8604,
+      "confidence_band": "very_high",
+      "error": null,
+      "cold_start": null,
+      "market_note": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "US Open",
+      "round": "Round 4",
+      "surface": "hard",
+      "start": "2026-09-06T18:30:00+00:00",
+      "p1": "Tomas Martin Etcheverry",
+      "p2": "Alex Michelsen",
+      "p1_win_prob": 0.3750081377186749,
+      "favorite": "Alex Michelsen",
+      "favorite_prob": 0.6249918622813251,
+      "confidence": 0.55,
+      "confidence_band": "medium",
+      "error": null,
+      "cold_start": null,
+      "market_note": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "US Open",
+      "round": "Round 4",
+      "surface": "hard",
+      "start": "2026-09-06T19:00:00+00:00",
+      "p1": "Frances Tiafoe",
+      "p2": "Daniil Medvedev",
+      "p1_win_prob": 0.4668075287635085,
+      "favorite": "Daniil Medvedev",
+      "favorite_prob": 0.5331924712364915,
+      "confidence": 0.5479,
+      "confidence_band": "medium",
+      "error": null,
+      "cold_start": null,
+      "market_note": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "US Open",
+      "round": "Round 4",
+      "surface": "hard",
+      "start": "2026-09-06T23:00:00+00:00",
+      "p1": "Stefanos Tsitsipas",
+      "p2": "Ben Shelton",
+      "p1_win_prob": 0.24892799957950942,
+      "favorite": "Ben Shelton",
+      "favorite_prob": 0.7510720004204906,
+      "confidence": 0.6698,
+      "confidence_band": "high",
+      "error": null,
+      "cold_start": null,
+      "market_note": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    },
+    {
+      "tourney": "US Open",
+      "round": "Round 4",
+      "surface": "hard",
+      "start": "2026-09-07T04:00:00+00:00",
+      "p1": "Alexander Blockx",
+      "p2": "Francisco Cerundolo",
+      "p1_win_prob": 0.46723271228292745,
+      "favorite": "Francisco Cerundolo",
+      "favorite_prob": 0.5327672877170726,
+      "confidence": 0.5382,
+      "confidence_band": "medium",
+      "error": null,
+      "cold_start": null,
+      "market_note": null,
+      "note": "No Kalshi price on upcoming board row \u2014 not a sized bet"
+    }
+  ],
+  "kalshi_evaluations": [
+    {
+      "match": "William Rejchtman Vinciguerra vs Manas Dhamne",
+      "match_start": "2026-09-06T12:10:00Z",
+      "our_p1": 0.5302,
+      "kalshi_p1": 0.16,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "William Rejchtman Vinciguerra vs Manas Dhamne",
+      "match_start": "2026-09-06T12:10:00Z",
+      "our_p1": 0.5302,
+      "kalshi_p1": 0.16,
+      "confidence_band": "low",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Kasidit Samrej vs Ilia Simakin",
+      "match_start": "2026-09-06T07:00:00Z",
+      "our_p1": 0.4649,
+      "kalshi_p1": 0.24,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Kasidit Samrej vs Ilia Simakin",
+      "match_start": "2026-09-06T07:00:00Z",
+      "our_p1": 0.4649,
+      "kalshi_p1": 0.24,
+      "confidence_band": "low",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Tomas Martin Etcheverry vs Alex Michelsen",
+      "match_start": "2026-09-06T18:00:00Z",
+      "our_p1": 0.4199,
+      "kalshi_p1": 0.27,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Tomas Martin Etcheverry vs Alex Michelsen",
+      "match_start": "2026-09-06T18:00:00Z",
+      "our_p1": 0.3799,
+      "kalshi_p1": 0.27,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Antoine Escoffier vs Adria Soriano Barrera",
+      "match_start": "2026-09-06T12:30:00Z",
+      "our_p1": 0.6143,
+      "kalshi_p1": 0.47,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Antoine Escoffier vs Adria Soriano Barrera",
+      "match_start": "2026-09-06T12:30:00Z",
+      "our_p1": 0.6143,
+      "kalshi_p1": 0.47,
+      "confidence_band": "low",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Alexander Blockx vs Francisco Cerundolo",
+      "match_start": "2026-09-07T04:00:00+00:00",
+      "our_p1": 0.4812,
+      "kalshi_p1": 0.59,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Alexander Blockx vs Francisco Cerundolo",
+      "match_start": "2026-09-07T04:00:00+00:00",
+      "our_p1": 0.467,
+      "kalshi_p1": 0.59,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Enrico Dalla Valle vs Maximo Zeitune",
+      "match_start": "2026-09-06T12:10:00Z",
+      "our_p1": 0.6225,
+      "kalshi_p1": 0.69,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Enrico Dalla Valle vs Maximo Zeitune",
+      "match_start": "2026-09-06T12:10:00Z",
+      "our_p1": 0.6225,
+      "kalshi_p1": 0.69,
+      "confidence_band": "low",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Iliyan Radulov vs Oriol Roca Batalla",
+      "match_start": "2026-09-06T12:00:00Z",
+      "our_p1": 0.4009,
+      "kalshi_p1": 0.25,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Iliyan Radulov vs Oriol Roca Batalla",
+      "match_start": "2026-09-06T12:00:00Z",
+      "our_p1": 0.3726,
+      "kalshi_p1": 0.25,
+      "confidence_band": "low",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Ivan Gakhov vs Oleg Prihodko",
+      "match_start": "2026-09-06T12:10:00Z",
+      "our_p1": 0.5781,
+      "kalshi_p1": 0.36,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Ivan Gakhov vs Oleg Prihodko",
+      "match_start": "2026-09-06T12:10:00Z",
+      "our_p1": 0.5781,
+      "kalshi_p1": 0.36,
+      "confidence_band": "low",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Daniil Medvedev vs Frances Tiafoe",
+      "match_start": "2026-09-06T18:00:00Z",
+      "our_p1": 0.5369,
+      "kalshi_p1": 0.58,
+      "confidence_band": "medium",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Daniil Medvedev vs Frances Tiafoe",
+      "match_start": "2026-09-06T18:00:00Z",
+      "our_p1": 0.5369,
+      "kalshi_p1": 0.58,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Tommy Paul vs Carlos Alcaraz",
+      "match_start": "2026-09-06T18:00:00+00:00",
+      "our_p1": 0.1404,
+      "kalshi_p1": 0.195,
+      "confidence_band": "high",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Tommy Paul vs Carlos Alcaraz",
+      "match_start": "2026-09-06T18:00:00+00:00",
+      "our_p1": 0.1404,
+      "kalshi_p1": 0.195,
+      "confidence_band": "high",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Facundo Mena vs Hugo Dellien",
+      "match_start": "2026-09-06T12:55:00Z",
+      "our_p1": 0.3221,
+      "kalshi_p1": 0.24,
+      "confidence_band": "medium",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Facundo Mena vs Hugo Dellien",
+      "match_start": "2026-09-06T12:55:00Z",
+      "our_p1": 0.2807,
+      "kalshi_p1": 0.24,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Rudolf Molleker vs Svyatoslav Gulin",
+      "match_start": "2026-09-06T13:20:00Z",
+      "our_p1": 0.5762,
+      "kalshi_p1": 0.46,
+      "confidence_band": "low",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Rudolf Molleker vs Svyatoslav Gulin",
+      "match_start": "2026-09-06T13:20:00Z",
+      "our_p1": 0.5762,
+      "kalshi_p1": 0.46,
+      "confidence_band": "low",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Ben Shelton vs Stefanos Tsitsipas",
+      "match_start": "2026-09-06T18:00:00Z",
+      "our_p1": 0.7218,
+      "kalshi_p1": 0.69,
+      "confidence_band": "high",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Ben Shelton vs Stefanos Tsitsipas",
+      "match_start": "2026-09-06T18:00:00Z",
+      "our_p1": 0.7218,
+      "kalshi_p1": 0.69,
+      "confidence_band": "high",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Learner Tien vs Jakub Mensik",
+      "match_start": "2026-09-06T00:30:00+00:00",
+      "our_p1": 0.5316,
+      "kalshi_p1": 0.545,
+      "confidence_band": "medium",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Learner Tien vs Jakub Mensik",
+      "match_start": "2026-09-06T00:30:00+00:00",
+      "our_p1": 0.5316,
+      "kalshi_p1": 0.545,
+      "confidence_band": "medium",
+      "product": "hold_settle"
+    },
+    {
+      "match": "Alejandro Tabilo vs Alexander Zverev",
+      "match_start": "2026-09-06T00:30:00+00:00",
+      "our_p1": 0.1672,
+      "kalshi_p1": 0.155,
+      "confidence_band": "high",
+      "product": "open_to_pre"
+    },
+    {
+      "match": "Alejandro Tabilo vs Alexander Zverev",
+      "match_start": "2026-09-06T00:30:00+00:00",
+      "our_p1": 0.1672,
+      "kalshi_p1": 0.155,
+      "confidence_band": "high",
+      "product": "hold_settle"
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T20:00:00Z",
+      "our_p1": 0.6389142820115477,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T19:00:00Z",
+      "our_p1": 0.28373456860328156,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T19:00:00Z",
+      "our_p1": 0.7377283325024363,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T19:00:00Z",
+      "our_p1": 0.9120428810459357,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T19:00:00Z",
+      "our_p1": 0.6482521131861031,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T18:30:00Z",
+      "our_p1": 0.44955699792144116,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T16:00:00Z",
+      "our_p1": 0.6566825056986237,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T16:30:00Z",
+      "our_p1": 0.36128548882070505,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T16:30:00Z",
+      "our_p1": 0.24508543952447764,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T14:30:00Z",
+      "our_p1": 0.8871936207958504,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T14:30:00Z",
+      "our_p1": 0.872384159733999,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T15:30:00Z",
+      "our_p1": 0.7301817552493226,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T14:00:00Z",
+      "our_p1": 0.34354782797253863,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T14:30:00Z",
+      "our_p1": 0.8273107418245131,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T14:00:00Z",
+      "our_p1": 0.6346099566084051,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T14:00:00Z",
+      "our_p1": 0.6611672633673666,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T14:00:00Z",
+      "our_p1": 0.6244105064589586,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T11:00:00Z",
+      "our_p1": 0.4981968634131224,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T11:00:00Z",
+      "our_p1": 0.767030607225358,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T11:00:00Z",
+      "our_p1": 0.7226109522431926,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T10:00:00Z",
+      "our_p1": 0.32895329271644136,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T10:00:00Z",
+      "our_p1": 0.6168349923978603,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T09:00:00Z",
+      "our_p1": 0.29101194247737144,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T09:00:00Z",
+      "our_p1": 0.5617497458630578,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T09:00:00Z",
+      "our_p1": 0.2555999437916244,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T07:00:00Z",
+      "our_p1": 0.6569427389269635,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T18:00:00Z",
+      "our_p1": 0.7783219538748919,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T18:00:00Z",
+      "our_p1": 0.8413672089333231,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T18:00:00Z",
+      "our_p1": 0.5844203762969166,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T18:00:00Z",
+      "our_p1": 0.480585724716562,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T18:00:00Z",
+      "our_p1": 0.774595318110417,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T18:00:00Z",
+      "our_p1": 0.3069157095850487,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-05T18:00:00Z",
+      "our_p1": 0.4782031213732656,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T13:20:00Z",
+      "our_p1": 0.5475444787692193,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T13:10:00Z",
+      "our_p1": 0.14811378764404587,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T13:10:00Z",
+      "our_p1": 0.4416571587180043,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T12:10:00Z",
+      "our_p1": 0.6116401690986616,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T12:10:00Z",
+      "our_p1": 0.795071355572559,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T12:00:00Z",
+      "our_p1": 0.6150247969211695,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T12:00:00Z",
+      "our_p1": 0.39992592075083383,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T11:00:00Z",
+      "our_p1": 0.7795369169662509,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T11:00:00Z",
+      "our_p1": 0.3591951047638232,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T11:00:00Z",
+      "our_p1": 0.6218387175332379,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T11:00:00Z",
+      "our_p1": 0.39315016916967344,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T11:00:00Z",
+      "our_p1": 0.6218175509243771,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T11:00:00Z",
+      "our_p1": 0.717768041424559,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T11:00:00Z",
+      "our_p1": 0.3787059924844638,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T11:00:00Z",
+      "our_p1": 0.4284266468315187,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T11:00:00Z",
+      "our_p1": 0.44822640290350946,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T11:00:00Z",
+      "our_p1": 0.320563368261899,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T11:00:00Z",
+      "our_p1": 0.4584197896361816,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T11:00:00Z",
+      "our_p1": 0.4820183692298394,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T11:00:00Z",
+      "our_p1": 0.17580648111610894,
+      "kalshi_p1": null,
+      "confidence_band": "low",
+      "product": null
+    },
+    {
+      "match": null,
+      "match_start": "2026-09-06T11:00:00Z",
+      "our_p1": 0.5957577507721696,
+      "kalshi_p1": null,
+      "confidence_band": "medium",
+      "product": null
+    }
+  ],
+  "player_notes": [],
+  "disclaimer": "Not financial advice. Model estimates from public data."
+}
