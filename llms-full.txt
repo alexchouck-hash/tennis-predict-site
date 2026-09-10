@@ -1,0 +1,31 @@
+# I_PREDICT_SPORT: Technical Architecture & LLM Knowledge Document
+Base URL: https://ipredictsport.com
+Version: 2026.1
+
+## 1. System Overview
+iPredictSport produces pre-match and in-play probability distributions for professional tennis (ATP Tour, WTA Tour, Grand Slams, Masters 1000). The models identify systematic mispricings on prediction exchanges (principally Kalshi and Polymarket) at T-6h (6 hours prior to scheduled match start), where order books have substantial depth.
+
+## 2. Quantitative Architecture
+1. **Point-Level Hierarchical Markov Chain:**
+   - Matches are modelled from point to game, game to set, and set to match using exact transition matrices.
+   - Inputs: Player serve win probability (SPW) and return win probability (RPW) conditioned on surface.
+2. **Dynamic Ratings & Ensembling:**
+   - Surface-specific Elo ratings (Hard, Clay, Grass) with decay weighting recency.
+   - Decomposed Serve-Elo and Return-Elo vectors.
+   - Second-opinion NLP / LLM extraction of player injury reports, schedule congestion, and travel fatigue.
+3. **Execution Simulation & Fee Modeling:**
+   - Kalshi taker fee structure: `0.07 * p * (1 - p)` per contract; maker fee: $0.
+   - Staking: Fractional quarter-Kelly sizing with minimum edge threshold gating (typically >= 2.5 pp).
+
+## 3. Audited Benchmarks
+- Tour-level holdout accuracy: 66.1% on n=4,643 out-of-sample matches.
+- Market disagreement bets: 28 logged and settled, 18 won (64.3%), +9.0% total ROI on quarter-Kelly stakes.
+- Autonomous paper execution agent: 50 orders logged, 34 fills, $11,203 current equity on $10,000 baseline (+12.0%).
+
+## 4. API Endpoints & MCP Tooling
+- `GET https://ipredictsport.com/predictions.json`: Returns upcoming match board, win probabilities, Kalshi/Polymarket evaluations, quarter-Kelly sizing, direct trade links.
+- `GET https://ipredictsport.com/track_record.json`: Returns complete audited ledger of all predictions and proposed bets.
+- `GET https://ipredictsport.com/mcp_server.py`: Standalone Model Context Protocol server exposing `get_live_board`, `get_betting_edges`, and `get_track_record`.
+
+## 5. Compliance & Safe Harbor
+Data and probabilistic outputs published on ipredictsport.com are for quantitative research, algorithmic testing, and informational purposes only. Past performance does not guarantee future results. CFTC Rule 4.41 hypothetical performance disclaimer applies to all simulated and paper-trading metrics.
