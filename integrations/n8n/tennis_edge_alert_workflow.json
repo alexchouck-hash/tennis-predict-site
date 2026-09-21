@@ -1,0 +1,128 @@
+{
+  "name": "iPredictSport Tennis +EV Scanner & Alerts",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "minutes",
+              "minutesInterval": 15
+            }
+          ]
+        }
+      },
+      "id": "schedule-trigger-1",
+      "name": "Every 15 Minutes",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "url": "https://ipredictsport.com/predictions.json",
+        "options": {}
+      },
+      "id": "http-request-1",
+      "name": "Fetch iPredict Feed",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Filter for +EV edges >= 8.0pp and compute quarter-Kelly staking\nconst data = $input.first().json;\nconst evals = data.kalshi_evaluations || [];\n\nconst edges = [];\nfor (const item of evals) {\n  const edge = Number(item.edge_pp || 0);\n  if (edge >= 8.0) {\n    edges.push({\n      json: {\n        match: item.match,\n        ticker: item.ticker,\n        model_prob: Math.round(Number(item.our_p1 || 0) * 100) + '%',\n        kalshi_price: Math.round(Number(item.kalshi_p1 || 0) * 100) + '¢',\n        edge_pp: '+' + edge.toFixed(1) + 'pp',\n        quarter_kelly: (Number(item.kelly_quarter || 0) * 100).toFixed(1) + '%',\n        trade_url: item.trade_url || 'https://kalshi.com/r/eb2fd257-2bc9-465a-a18c-5e9a0ab4848d'\n      }\n    });\n  }\n}\n\nreturn edges;"
+      },
+      "id": "code-filter-1",
+      "name": "Filter +EV Edges (>=8pp)",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "cond-1",
+              "leftValue": "={{ $json.match }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty"
+              }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "if-matches-exist",
+      "name": "If Edges Found",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [900, 300]
+    },
+    {
+      "parameters": {
+        "content": "=🚨 **iPredictSport +EV Tennis Alert**\n\n**Match:** {{ $json.match }}\n**Model Win Prob:** {{ $json.model_prob }}\n**Kalshi Price:** {{ $json.kalshi_price }}\n**Expected Edge:** {{ $json.edge_pp }}\n**Quarter-Kelly Sizing:** {{ $json.quarter_kelly }} of bankroll\n\n[Trade on Kalshi (0% Maker Fees)]({{ $json.trade_url }})"
+      },
+      "id": "discord-webhook-out",
+      "name": "Post to Discord / Webhook",
+      "type": "n8n-nodes-base.discord",
+      "typeVersion": 2,
+      "position": [1120, 300]
+    }
+  ],
+  "connections": {
+    "Every 15 Minutes": {
+      "main": [
+        [
+          {
+            "node": "Fetch iPredict Feed",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fetch iPredict Feed": {
+      "main": [
+        [
+          {
+            "node": "Filter +EV Edges (>=8pp)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter +EV Edges (>=8pp)": {
+      "main": [
+        [
+          {
+            "node": "If Edges Found",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If Edges Found": {
+      "main": [
+        [
+          {
+            "node": "Post to Discord / Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {}
+}

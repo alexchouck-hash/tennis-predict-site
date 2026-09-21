@@ -1,0 +1,101 @@
+openapi: 3.1.0
+info:
+  title: iPredictSport Quantitative Tennis & Prediction Market API
+  description: >-
+    Real-time point-level machine learning tennis predictions, calibrated win probabilities,
+    and fee-aware quarter-Kelly betting edges against live Kalshi and Polymarket order books.
+  version: 1.0.0
+  contact:
+    name: iPredictSport
+    url: https://ipredictsport.com
+servers:
+  - url: https://ipredictsport.com
+    description: Production CDN Endpoint
+paths:
+  /predictions.json:
+    get:
+      operationId: getTennisPredictions
+      summary: Get live tennis match predictions and prediction market evaluations
+      description: >-
+        Returns the active match board for upcoming ATP and WTA matches with model favorites,
+        point-level win probabilities, and evaluated positive-EV trading edges against Kalshi.
+      responses:
+        '200':
+          description: Successful response with active match board and market evaluations
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  generated_utc:
+                    type: string
+                    description: Timestamp of when predictions were computed
+                  upcoming_board:
+                    type: array
+                    description: Active upcoming ATP and WTA matches
+                    items:
+                      type: object
+                      properties:
+                        tourney:
+                          type: string
+                        round:
+                          type: string
+                        surface:
+                          type: string
+                        start:
+                          type: string
+                        p1:
+                          type: string
+                        p2:
+                          type: string
+                        p1_win_prob:
+                          type: number
+                        favorite:
+                          type: string
+                        favorite_prob:
+                          type: number
+                        confidence_band:
+                          type: string
+                  kalshi_evaluations:
+                    type: array
+                    description: Evaluated betting edges against Kalshi contracts
+                    items:
+                      type: object
+                      properties:
+                        match:
+                          type: string
+                        match_start:
+                          type: string
+                        our_p1:
+                          type: number
+                        kalshi_p1:
+                          type: number
+                        edge_pp:
+                          type: number
+                        confidence_band:
+                          type: string
+                        kelly_quarter:
+                          type: number
+                        trade_action:
+                          type: object
+                          properties:
+                            platform:
+                              type: string
+                            ticker:
+                              type: string
+                            url:
+                              type: string
+                            referral_bonus_url:
+                              type: string
+  /track_record.json:
+    get:
+      operationId: getTrackRecord
+      summary: Get audited historical model accuracy and closing-line value benchmarks
+      description: Returns historical holdout prediction metrics and closing-line value performance.
+      responses:
+        '200':
+          description: Historical performance statistics
+          content:
+            application/json:
+              schema:
+                type: object

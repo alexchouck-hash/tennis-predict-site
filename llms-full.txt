@@ -14,11 +14,11 @@ iPredictSport produces pre-match and in-play probability distributions for profe
    - Decomposed Serve-Elo and Return-Elo vectors.
    - Second-opinion NLP / LLM extraction of player injury reports, schedule congestion, and travel fatigue.
 3. **Execution Simulation & Fee Modeling:**
-   - Kalshi taker fee structure: `0.07 * p * (1 - p)` per contract; maker fee: $0.
+   - Kalshi taker fee: `0.07 * p * (1 - p)` per contract; maker fee: `0.0175 * p * (1 - p)`.
    - Staking: Fractional quarter-Kelly sizing with minimum edge threshold gating (typically >= 2.5 pp).
 
 ## 3. Audited Benchmarks
-- Tour-level holdout accuracy: 66.1% on n=4,643 out-of-sample matches.
+- Tour-level holdout accuracy: 66.1% on n=4,851 out-of-sample matches.
 - Market disagreement bets: 28 logged and settled, 18 won (64.3%), +9.0% total ROI on quarter-Kelly stakes.
 - Autonomous paper execution agent: 50 orders logged, 34 fills, $11,203 current equity on $10,000 baseline (+12.0%).
 

@@ -1,0 +1,40 @@
+openapi: 3.1.0
+info:
+  title: iPredictSport Quantitative Tennis & Prediction Market API
+  description: >-
+    Real-time point-level machine learning tennis predictions, calibrated win probabilities,
+    and fee-aware quarter-Kelly betting edges against live Kalshi and Polymarket order books.
+  version: 1.0.0
+  contact:
+    name: iPredictSport
+    url: https://ipredictsport.com
+servers:
+  - url: https://ipredictsport.com
+    description: Production CDN Endpoint
+paths:
+  /predictions.json:
+    get:
+      operationId: getTennisPredictions
+      summary: Get live tennis match predictions and prediction market evaluations
+      description: >-
+        Returns the active match board for upcoming ATP and WTA matches with model favorites,
+        point-level win probabilities, and evaluated positive-EV trading edges against Kalshi.
+      responses:
+        '200':
+          description: Successful response with active match board and market evaluations
+          content:
+            application/json:
+              schema:
+                type: object
+  /track_record.json:
+    get:
+      operationId: getTrackRecord
+      summary: Get audited historical model accuracy and closing-line value benchmarks
+      description: Returns historical holdout prediction metrics and closing-line value performance.
+      responses:
+        '200':
+          description: Historical performance statistics
+          content:
+            application/json:
+              schema:
+                type: object

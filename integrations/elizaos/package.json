@@ -1,0 +1,21 @@
+{
+  "name": "@elizaos/plugin-ipredict",
+  "version": "0.1.0",
+  "description": "iPredictSport quantitative tennis analytics and prediction market trading plugin for elizaOS",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "author": "iPredictSport",
+  "license": "MIT",
+  "dependencies": {
+    "@elizaos/core": "workspace:*"
+  },
+  "keywords": [
+    "elizaos",
+    "plugin",
+    "prediction-markets",
+    "kalshi",
+    "tennis",
+    "trading"
+  ]
+}
